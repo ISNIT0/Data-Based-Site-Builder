@@ -1,0 +1,62 @@
+body {
+  width:100%;
+  height:100%;
+}
+
+.template {
+  display:none;
+}
+
+.element {
+  padding:15px;
+  height:auto;
+  width:100%;
+  position:relative;
+}
+.element .content {
+  height:auto;
+}
+.element .content * {
+  padding:10px;
+}
+
+.ui-state-hover {
+  background:#eee;
+  border:none;
+  padding:22px;
+  transition:0.3s;
+}
+
+.editor,.preview {
+  width:50%;
+  flex:1 1 auto;
+  padding:10px;
+}
+.views {
+  position:absolute;
+  display:flex;
+  flex-direction:columns;
+  height:100%;
+  width:100%;
+}
+
+.editControls {
+  font-size:13px;
+  height:24px;
+  bottom:0px;
+}
+.editControls * {
+  float:right;
+}
+
+
+.sidebar {
+  max-width:200px;
+  min-width:100px;
+  width:5%;
+  height:100%;
+  padding:10px;
+}
+.sidebar .menu {
+  width:100%;
+}

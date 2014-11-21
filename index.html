@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <script class='cssdeck' src='jquery.min.js'></script>
+        <link rel='stylesheet' href='jquery-ui.css' />
+        <script src='jquery-ui.min.js'></script>
+        <link rel='stylesheet' href='font-awesome-4.2.0/css/font-awesome.min.css' />
+
+        <link rel='stylesheet' href='material.css' />
+
+        <script type='text/coffeescript' src='main.coffee'></script>
+        <script src='coffee-compiler.js'></script>
+
+        <script src='http://www.polymer-project.org/components/platform/platform.js'></script>
+
+        <link rel="import" href="http://www.polymer-project.org/components/paper-ripple/paper-ripple.html">
+        <link rel="import" href="http://www.polymer-project.org/components/core-icons/core-icons.html">
+        <link rel="import" href="http://www.polymer-project.org/components/font-roboto/roboto.html">
+
+        <link rel='stylesheet' href='main.css' />
+    </head>
+
+    <body>
+        <div class='views'>
+            <div class='sidebar'>
+                <div class='menu'>
+                    <div class='item'>
+                        <div class='label' fit>H1</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>H2</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>H3</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>H4</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                </div>
+                <div class='menu'>
+                    <div class='item'>
+                        <div class='label' element='div' param='true' fit>Each</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' element='div' param='true' fit>Filter</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' element='div' param='true' fit>If</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                </div>
+                <div class='menu'>
+                    <div class='item'>
+                        <div class='label' fit>Div</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>Span</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>P</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                    <div class='item'>
+                        <div class='label' fit>Prev</div>
+                        <paper-ripple fit></paper-ripple>
+                    </div>
+                </div>
+            </div>
+            <div class='editor'></div>
+            <div class='preview'></div>
+        </div>
+
+        <div class='template editControls'>
+            <div class='fab red delete'>
+                <core-icon class='delete' icon='delete'></core-icon>
+                <paper-ripple class='circle recenteringTouch' fit></paper-ripple>
+            </div>
+            <div class='fab blue data'>
+                <core-icon icon='settings'></core-icon>
+                <paper-ripple class='circle recenteringTouch' fit></paper-ripple>
+            </div>
+            <div class='fab green edit'>
+                <core-icon icon='create'></core-icon>
+                <paper-ripple class='circle recenteringTouch' fit></paper-ripple>
+            </div>
+        </div>
+    </body>
+</html>
