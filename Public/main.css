@@ -16,7 +16,7 @@ body {
 .element .content {
   height:auto;
 }
-.element .content * {
+.element .content {
   padding:10px;
 }
 
